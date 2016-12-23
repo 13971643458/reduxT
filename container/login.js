@@ -16,7 +16,7 @@ import {
 import {connect} from 'react-redux';//将我们的页面和action链接起来
 import {bindActionCreators} from 'redux';//将要绑定的actions和dispatch绑定到一起
 
-import  * as  actonter from '../actions/login'
+import  * as  actonter from '../actions/loginAction'
 import {Home} from  '../container/login'
 
 class Login extends Component {

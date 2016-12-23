@@ -12,7 +12,7 @@ import  {
 import {connect} from 'react-redux';
 import NavigatorBar from 'react-native-navbar';
 
-import {logout} from '../actions/login';
+import {logout} from '../actions/loginAction';
 
 class Home extends Component {
 
